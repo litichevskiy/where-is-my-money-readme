@@ -1,0 +1,81 @@
+.main{
+  padding: 0 1em 1.5em 1em;
+
+  .short-description,
+  .header-must-be-later{
+    font-size: 1.3em;
+    line-height: 1.3em;
+  }
+
+  .usage-link{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1.2em;
+    color: $link-color;
+    text-decoration: none;
+
+
+    &:after{
+      content: "";
+      position: relative;
+      left: 7px;
+      display: inline-block;
+      fill: red;
+      width: 23px;
+      height: 23px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='30' height='30' fill='%230992ff'%3E%3Cg%3E%3Cpath d='M30 18v7a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5h6V0H7a7 7 0 0 0-7 7v18a7 7 0 0 0 7 7h18a7 7 0 0 0 7-7v-7z'/%3E%3Cpath d='M6.29 24.29 7.7 25.7 28 5.41V14h2V3a1 1 0 0 0-1-1H17v2h9.59z'/%3E%3C/g%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      transition: .3s;
+    }
+
+    &:focus{
+      outline: 2px solid $focus-color;
+      outline-offset: calc( $outline-offset * 2 );
+
+      &:after{
+        left: 2px;
+        width: 17px;
+        height: 17px;
+      }
+    }
+
+    &:active,
+    &:visited{
+      color: $link-color;
+    }
+  }
+
+  .list-app-description{
+
+  }
+
+  .item-list-app-description{
+    padding: 0.2em 0.15em;
+  }
+
+  .nested-list-app-description{
+    background: #ededed;
+    margin: .45em 0 .45em 2em;
+    padding: .3em;
+  }
+}
+
+
+@media (max-width: 760px) {
+  .main{
+    padding: 0 $mobile-horisontal-section-padding 1.2em $mobile-horisontal-section-padding;
+
+    .short-description,
+    .header-must-be-later{
+      line-height: 1.4em;
+    }
+
+    .nested-list-app-description{
+      margin-left: 1em;
+      margin-right: 0;
+      padding-left: $mobile-horisontal-section-padding;
+    }
+  }
+}
