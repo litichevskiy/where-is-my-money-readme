@@ -9,7 +9,10 @@ const localization = {
     "short-description": "where's my money - it's a mobile web application for tracking your spending.",
     "created-with": "This application is created with:",
     "contact-message": "If you have suggestions on how to make this app more user-friendly, or if you arise any error/bug (please take a screenshot or a short video about it) or questions, write to us.",
-    "usage-link": "Link to application",
+    "application-link": "Link to application",
+    "video-link-about-txt": "About",
+    "video-link-usage-txt": "How to use the app",
+    "video-links-title" : "Video available here:",
     "description": [
       ["That means when you make a purchase, you can add it to an app and use various sorting (for sorting, you need to add a minimum of two purchases)"],
       ["For a better experience use phone + latest version Google Chrome.",
@@ -51,7 +54,7 @@ const localization = {
     "soon": {
       "title": "Later must be:",
       "description": [
-        ["Video 'how it's used'."],
+        // ["Video 'how it's used'."],
         ["Import/Export application data to/from your server (advanced usage)."],
         ["Basket/trash all deleted purchases will be stored for some time."],
         ["More filters, filters with charts."],
@@ -64,7 +67,10 @@ const localization = {
     "short-description": "where's my money - Це веб-додаток для відстеження витрат.",
     "created-with": "Цей додаток створений за допомогою:",
     "contact-message": "Якщо у вас є пропозиції щодо того, як зробити цей додаток зручнішим у використаннi, або якщо у вас виникли будь-які помилки (будь ласка, зробіть знімок екрана або коротке відео про це), чи питання, напишіть нам.",
-    "usage-link": "Посилання на додаток",
+    "application-link": "Посилання на додаток",
+    "video-link-about-txt": "Про додаток",
+    "video-link-usage-txt": "Як користуватися",
+    "video-links-title" : "Відео доступне тут:",
     "description": [
       ["Це означає, що коли ви робите покупку, ви можете додати її в програму та використовувати різні сортування/фільтри. Для використання фільтрів потрібно додати мінімум дві покупки."],
       ["Для кращого досвіду використовуйте телефон + остання версія Google Chrome",
@@ -107,7 +113,7 @@ const localization = {
     "soon": {
       "title": "Має бути згодом:",
       "description": [
-        ["Відео 'як користуватися'."],
+        // ["Відео 'як користуватися'."],
         ["Експорт/імпорт даних користувача/покупок до (свого) сервера та навпаки."],
         ["'Кошик', в якому деякий час зберігатимуться всі видалені покупки."],
         ["Більше фільтрів, фільтри з діаграмами."],

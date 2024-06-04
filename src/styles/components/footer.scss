@@ -23,7 +23,7 @@
     &:after{
       content: "";
       position: relative;
-      left: 5px;
+      left: 9px;
       display: inline-block;
       width: 2.4em;
       height: 1.8em;
@@ -31,6 +31,8 @@
       background-repeat: no-repeat;
       background-size: 150%;
       background-position: center;
+      border-radius: 5px;
+      box-shadow: $box-shadow-default;
     }
 
     &:active,

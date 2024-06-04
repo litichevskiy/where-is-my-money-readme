@@ -9,9 +9,12 @@ const shortDescription = document.querySelector('.short-description');
 const createdWith = document.querySelector('.created-with');
 const technology = document.querySelector('.technology');
 const contactMessage = document.querySelector('.contact-message');
-const usageLink = document.querySelector('.usage-link');
+const usageLink = document.querySelector('.application-link');
 const mustBeLaterHeader = document.querySelector('.header-must-be-later');
 const mustBeLaterList = document.querySelector('[id="must-be-later"]');
+const linksTitle = document.querySelector('.links-title');
+const titleLinkAbout = document.querySelector('.link-video-about');
+const titleLinkUsage = document.querySelector('.link-video-usage');
 
 changeLanguageContainer.addEventListener('click', ({ target }) => {
   if( !target.dataset ) return;
@@ -33,9 +36,12 @@ const createContentWithLocalization = ({ localization, lang }) => {
   shortDescription.innerHTML = localization[lang]['short-description'];
   createdWith.innerHTML = localization[lang]['created-with'];
   contactMessage.innerHTML = localization[lang]['contact-message'];
-  usageLink.innerHTML = localization[lang]['usage-link'];
+  usageLink.innerHTML = localization[lang]['application-link'];
   technology.innerHTML = localization['technology'];
   mustBeLaterHeader.innerHTML = localization[lang]['soon']['title'];
+  linksTitle.innerHTML = localization[lang]['video-links-title'];
+  titleLinkAbout.innerHTML = localization[lang]['video-link-about-txt'];
+  titleLinkUsage.innerHTML = localization[lang]['video-link-usage-txt'];
 };
 
 createContentWithLocalization({ localization, lang: currentLanguage });
