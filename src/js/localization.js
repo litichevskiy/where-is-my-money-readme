@@ -55,7 +55,7 @@ const localization = {
       "title": "Later must be:",
       "description": [
         // ["Video 'how it's used'."],
-        ["Import/Export application data to/from your server (advanced usage)."],
+        // ["Import/Export application data to/from your server (advanced usage)."],
         ["Basket/trash all deleted purchases will be stored for some time."],
         ["More filters, filters with charts."],
         ["More settings."],
@@ -114,7 +114,7 @@ const localization = {
       "title": "Має бути згодом:",
       "description": [
         // ["Відео 'як користуватися'."],
-        ["Експорт/імпорт даних користувача/покупок до (свого) сервера та навпаки."],
+        // ["Експорт/імпорт даних користувача/покупок до (свого) сервера та навпаки."],
         ["'Кошик', в якому деякий час зберігатимуться всі видалені покупки."],
         ["Більше фільтрів, фільтри з діаграмами."],
         ["Різні налаштування."],
